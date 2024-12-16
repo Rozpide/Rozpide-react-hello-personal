@@ -5,9 +5,10 @@ import Jumbotron from "./Jumbotron";
 const Contenedor = () => {
     return (
 		<>
-         <Jumbotron/>
-		 <Card/>
-		   	
+			<div className="container">
+				<Jumbotron/>
+				<Card/>
+			</div>   	
 		</>
 	);
 }
