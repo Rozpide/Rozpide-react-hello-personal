@@ -1,6 +1,14 @@
 import React from "react";
+import Card from "./Card";
+import Jumbotron from "./Jumbotron";
 
 const Contenedor = () => {
-    return <h1>contenedor</h1>
+    return (
+		<>
+         <Jumbotron/>
+		 <Card/>
+		   	
+		</>
+	);
 }
 export default Contenedor
