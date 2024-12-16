@@ -1,21 +1,18 @@
 import React from "react";
 
-//include images into your bundle
-
-import Navbar from "./Navbar.jsx";
-
-import Contenedor from "./Contenedor.jsx";
-import Footer from "./Footer.jsx";
+import Navbar from "./Navbar";
+import Contenedor from "./Contenedor";
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
-	return (
-		<>
-         <Navbar/>
-		 <Contenedor/>
-		 <Footer/>   	
-		</>
-	);
+  return (
+    <>
+      <Navbar />
+      <Contenedor />
+      <Footer />
+    </>
+  );
 };
 
 export default Home;
