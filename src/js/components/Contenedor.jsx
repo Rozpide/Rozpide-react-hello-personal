@@ -5,7 +5,7 @@ import Jumbotron from "./Jumbotron";
 const Contenedor = () => {
     return (
 		<>
-			<div className="container">
+			<div className="container col-12">
 				<Jumbotron/>
 				<Card/>
 			</div>   	

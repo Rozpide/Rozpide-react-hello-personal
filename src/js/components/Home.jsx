@@ -8,9 +8,14 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Contenedor />
-      <Footer />
+    <Navbar />
+        <div className="container">
+          
+          <Contenedor />
+          
+        </div>
+    <Footer />
+      
     </>
   );
 };
