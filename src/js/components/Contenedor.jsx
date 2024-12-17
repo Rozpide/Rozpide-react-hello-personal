@@ -5,9 +5,9 @@ import Jumbotron from "./Jumbotron";
 const Contenedor = () => {
     return (
         <>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row mb-3">
-                    <div className="col-12" style={{width:'1270px'}}>
+                    <div className="col-12">
                         <Jumbotron />
                     </div>
                 </div>
@@ -22,4 +22,5 @@ const Contenedor = () => {
 }
 
 export default Contenedor;
+
 
