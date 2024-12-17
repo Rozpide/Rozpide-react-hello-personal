@@ -9,18 +9,16 @@ const Contenedor = () => {
                 <div className="row mb-3">
                     <div className="col-12">
                         <Jumbotron />
+                        <Card/>
                     </div>
                 </div>
-                <div className="row mb-3">
-                    <div className="col-12">
-                        <Card />
-                    </div>
-                </div>
+                
             </div>
         </>
     );
 }
 
 export default Contenedor;
+
 
 
