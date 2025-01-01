@@ -30,11 +30,11 @@ const Navbar = () => {
         </nav>
         <nav className="navbar navbar-expand-lg navbar-light bg-aqua"> 
             <a className="navbar-brand" href="#"> 
-                <img src="src/img/minimalist-logo-icono.jpg.png" alt="Logo" viewBox="0 2 18 18" className="logo-img" width="55" height="70"/> 
+                <img src="src/img/minimalist-logo-icono.jpg.png" alt="Logo" viewBox="0 2 18 18" className="logo-img" width="60" height="70"/> 
                 
                 
             </a> 
-            <div className="collapse navbar-collapse justify-content-center btn-circle" height="80"> 
+            <div className="collapse navbar-collapse justify-content-center btn-circle-dop" height="50"> 
                 <ul className="navbar-nav"> 
                     <li className="nav-item"> 
                         <a className="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="80" fill="currentColor" className="bi bi-app-indicator" viewBox="0 0 16 16">

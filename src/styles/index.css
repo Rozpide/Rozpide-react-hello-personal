@@ -32,6 +32,17 @@
     vertical-align: middle;
     line-height: 40px;
   }
+  .btn-circle-dop {
+    width: 50px;
+    height: 50px;
+    border-radius: 3%;
+    background-color: #16f4ec;
+    color:black;
+    text-align: center;
+    vertical-align: middle;
+    
+
+  }
   
   .nav-link {
     font-size: 18px;
